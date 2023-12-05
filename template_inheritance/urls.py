@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/',index,name='index.html'),
     path('second/',second,name='second.html'),
+    path('third/',third,name='third.html'),
 ]
